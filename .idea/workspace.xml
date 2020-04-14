@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d9091ad-061c-4a65-9e6b-f49e6a5020d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/posts/show.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/profiles/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProfilesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProfilesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Profile.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/profiles/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profiles/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/profiles/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profiles/edit.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +27,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProfilesController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="629">
@@ -46,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/profiles/edit.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="50" column="159" selection-start-line="50" selection-start-column="159" selection-end-line="50" selection-end-column="159" />
+            <state relative-caret-position="544">
+              <caret line="44" column="14" lean-forward="true" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -158,9 +151,9 @@
         <option value="$PROJECT_DIR$/resources/views/posts/show.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/profiles/index.blade.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
-        <option value="$PROJECT_DIR$/resources/views/profiles/edit.blade.php" />
         <option value="$PROJECT_DIR$/app/Profile.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ProfilesController.php" />
+        <option value="$PROJECT_DIR$/resources/views/profiles/edit.blade.php" />
       </list>
     </option>
   </component>
@@ -393,12 +386,12 @@
       <workItem from="1584977540951" duration="3879000" />
       <workItem from="1586246529058" duration="8430000" />
       <workItem from="1586675198384" duration="13420000" />
-      <workItem from="1586852686614" duration="4286000" />
+      <workItem from="1586852686614" duration="4960000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30015000" />
+    <option name="totallyTimeSpent" value="30689000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="25" width="1623" height="1025" extended-state="6" />
@@ -630,13 +623,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/profiles/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="50" column="159" selection-start-line="50" selection-start-column="159" selection-end-line="50" selection-end-column="159" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Profile.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -651,6 +637,13 @@
           <folding>
             <element signature="e#40#53#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/profiles/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="44" column="14" lean-forward="true" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
         </state>
       </provider>
     </entry>
