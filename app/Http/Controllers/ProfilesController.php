@@ -8,16 +8,12 @@ use Intervention\Image\Facades\Image;
 
 class ProfilesController extends Controller
 {
-    public function index($userId)
+    public function index(User $user)
     {
-        //dd($userId);
-        //dd(User::find($userId));
+        $follows = (auth()->user()) ? auth()->user()->following->contains($user->id) : false;
+        //dd($follows);
 
-        $user = User::findOrFail($userId);
-
-        return view('profiles.index', [
-            'user' => $user,
-        ]);
+        return view('profiles.index', compact('user', 'follows'));
     }
 
     public function edit(\App\User $user)
